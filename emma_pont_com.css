@@ -1,0 +1,41 @@
+a:link {
+
+    text-decoration: none;
+
+}
+
+.title {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.title-icon {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.portre-img {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #6c757d7d;
+}
+
+.ikon-style {
+    width: 30px;
+    height: auto;
+}

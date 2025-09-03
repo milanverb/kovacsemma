@@ -4,6 +4,11 @@ a:link {
 
 }
 
+.span{
+    font-weight: bold;
+}
+
+
 .title {
     font-weight: 600;
     font-style: normal;
@@ -25,10 +30,9 @@ a:link {
 }
 
 .portre-img {
-    width: 250px;
+    width: 300px;
     height: auto;
     margin: auto;
-    padding-bottom: 20px;
     display: block;
 }
 
@@ -40,3 +44,22 @@ a:link {
     width: 30px;
     height: auto;
 }
+
+.divider {
+    width: 150px;
+}
+
+.sticky-gomb {
+    border-radius: 100px !important
+}
+
+@media (min-width: 1200px) {
+    .sub-title {
+        padding-right: 150px;
+    }
+    .portre-img {
+        width: 350px;
+        margin-bottom: 60px;
+    }
+}
+

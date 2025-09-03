@@ -9,12 +9,12 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Kovács Emma</title>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-<link rel="manifest" href="favicon/site.webmanifest">
-<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -39,44 +39,63 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active bg-secondary mt-3 mt-lg-0 pt-3 pb-3 ps-4 pe-4" aria-current="page"
-                            href="./">Kezdőlap
+                            href="./index.html">Kezdőlap
                         </a>
-                        <a class="nav-link pt-3 pb-3 ps-4 pe-4" href="./arlista">Árak</a>
-                        <a class="nav-link pt-3 pb-3 ps-4 pe-4" href="./kapcsolat">Kapcsolat</a>
+                        <a class="nav-link pt-3 pb-3 ps-4 pe-4" href="./tanacsadas.html">Tanácsadás</a>
+                        <a class="nav-link pt-3 pb-3 ps-4 pe-4" href="./csaladterapia.html">Családterápia</a>
+                        <a class="nav-link pt-3 pb-3 ps-4 pe-4" href="./parterapia.html">Párterápia</a>
+                        <a class="nav-link pt-3 pb-3 ps-4 pe-4" href="./arlista.html">Árlista</a>
+                        <a class="nav-link pt-3 pb-3 ps-4 pe-4" href="./kapcsolat.html">Kapcsolat</a>
                     </div>
                 </div>
             </div>
         </nav>
     </nav>
-    <section class="hi-section pt-4">
+    <a href="./kapcsolat.html" class="fixed-bottom d-grid gap-2 px-5 mx-md-auto col-lg-4 mb-4 me-lg-5">
+        <button type="button" class="sticky-gomb btn btn-secondary btn-lg border-2 border-dark">Időpont foglalás <svg
+                xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus"
+                viewBox="0 1 16 16">
+                <path
+                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+            </svg> </button>
+    </a>
+    <section class="hi-section">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-auto order-lg-2">
                     <a>
-                        <img class="portre-img pb-2" src="img/portre_foto.png" alt="">
+                        <img class="portre-img pt-5 pb-2" src="img/portre_foto.png" alt="">
                     </a>
                 </div>
-                <div class="col-lg-8 order-lg-1 text-center text-lg-start px-3">
-                    <p class="title pt-4 pb-2">
+                <div class="col-lg-7 order-lg-1 text-center text-lg-start">
+                    <p class="title pt-lg-5 m-0">
                         Üdvözöllek az oldalamon!
                     </p>
+                    <div class="pb-3">
+                            <img class="divider" src="img/divider.png" alt="">
+                        </div>
                     <p class="sub-title">
-                        Kovács Emma Villő vagyok Okleveles Pszichológus,
+                        Kovács Emma Villő vagyok Okleveles Pszichológus, képzésben lévő Család- és Párterapeuta,
                         Coach.
                     </p>
-                    <p class="pb-4">
-
+                    <p class="pb-1">
                         Nincs is annál érdekesebb és mindenre kiterjedőbb tevékenység, mint önmagunk megismerése.
                         Legalábbis engem ez a gondolat
                         vitt végig azon az úton, ami ahhoz vezetett, hogy elkezdtem magammal és szakmai szinten is a
                         pszichológiával
                         foglalkozni.
                     </p>
+                    <p class="pb-4">
+                        Önmagunk megismerése és a múltban történt események felidézése gyakran ijesztőnek és
+                        fájdalmasnak tűnhet. Azonban ha ezt egy biztonságos helyen, megfelelő segítővel tesszük, olyan
+                        terhektől szabadulhatunk meg, melyek megakadályozzák, hogy elégedettek és elfogadóak legyünk
+                        önmagunkkal.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="text-list">
+    <!-- <section class="text-list">
         <div class="container">
             <div class="row">
                 <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -107,22 +126,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="text-2">
-        <div class="container">
-            <div class="row">
-                <p class="pt-4 pb-2">
-                    Önmagunk megismerése és a múltban történt események felidézése gyakran ijesztőnek és fájdalmasnak
-                    tűnhet. Azonban ha ezt
-                    egy biztonságos helyen, megfelelő segítővel tesszük, olyan terhektől szabadulhatunk meg, melyek
-                    megakadályozzák, hogy
-                    elégedettek és elfogadóak legyünk önmagunkkal.
-                </p>
-
-            </div>
-        </div>
-    </section>
-    <section class="text-list-2">
+    </section> -->
+    <!-- <section class="text-list-2">
         <div class="container mb-2">
             <div class="row">
                 <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -156,75 +161,110 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="hi-section">
         <div class="container">
             <div class="row justify-content-between">
+                <div class="col-lg-6">
 
-                <div class="text-center text-lg-start px-3">
-                    <p class="title pt-4 pb-2">
-                        Rólam
-                    </p>
-                    <p class="pb-4">
-                        Az alapképzés elvégzése után az Eötvös Loránd Tudományegyetemen végeztem el mesterszakos
-                        tanulmányaimat, tanácsadás
-                        szakirányon. Ezzel a képzéssel elmélyíthettem tudásom a mindennapi életben megjelenő
-                        konfliktusok,
-                        krízisek és traumák
-                        okozta nehézségekről, okairól és következményeiről. Ez, és az önismeretből nyert tapasztalatom
-                        csak
-                        még inkább
-                        megerősített abban, hogy ezeken a nehézségeken különböző formában mindannyian átmegyünk. Ezzel
-                        együtt mégis mindenkinél
-                        teljesen egyedi és összetett a történet, valamint az a folyamat, ahogyan ezt megéljük,
-                        feldolgozzuk
-                        és megtanulunk vele
-                        együtt élni, esetleg még erőt is nyerni a mindennapokban. Ebben pedig az tud minket előrébb
-                        vinni,
-                        ha megtaláljuk azt a
-                        külső személyt és kapaszkodót, akinek ki tudjuk mondani a legbelső gondolatainkat és
-                        félelmeinket,
-                        rávilágít
-                        összefüggésekre, támaszt nyújt és tükröt tart belső működéseink mikéntjeiről és miértjeiről.
-                        Erre
-                        törekszem én is
-                        klienseimmel folytatott munkában.
-                    </p>
+                    <div class="text-center text-lg-start pe-lg-5">
+                        <p class="title m-0">
+                            Rólam
+                        </p>
+                                                <div class="pb-3">
+                            <img class="divider" src="img/divider.png" alt="">
+                        </div>
+                        <p class="pb-4">
+                            Az alapképzés elvégzése után az Eötvös Loránd Tudományegyetemen végeztem el <strong> mesterszakos
+                            pszichológus tanulmányaimat, tanácsadás szakirányon </strong> 2023-ban. Ezzel a képzéssel
+                            elmélyíthettem tudásom a mindennapi életben megjelenő konfliktusok, krízisek és traumák
+                            okozta nehézségekről, okairól és következményeiről. <br>
+                            <br>
+                            A gyakorlatomat a <strong>Kék Pont drogambulancián</strong> végeztem, ahol komplex szolgáltatást nyújtanak
+                            pszichoaktív szer használóknak és elterelésben résztvevő személyeknek.
+                            2023 szeptemberétől kezdtem el foglalkozni, magán ellátás keretében <strong> egyéni tanácsadással
+                            felnőttek </strong> részére, melyben a személyközpontú irányzat, másrészt a család- és párterápiás
+                            szemlélet rendszerszemléleti nézőpontja ad számomra egy stabil hátteret és gondolkodásmódot,
+                            amiben segíteni tudok az egyéneknek ránézni eddigi tapasztalataikra, nehézségeikre és
+                            ezeknek a hatására. <br><br>
+                            A magánellátás mellett 2024 januárjában félállásban elhelyezkedtem a gyermekjóléti
+                            szolgálatnál, mely újabb fejlődési és tapasztalati helyként szolgál. <strong> Itt ko-terapeuta
+                            társammal tartunk családterápiát vagy párterápiát </strong> sokrétű nehézségekkel, élethelyzeti
+                            problémákkal küzdő családoknak. <br><br>
+                            A családterápiás képzésebe 2023 őszén kezdtem bele, melynek az alapképzését sikeresen
+                            elvégeztem, illetve az ahoz tartozó 150 órás családi önismereti folyamatot befejezve a
+                            <strong> család- és párterápiás üléseinket csoportos szupervízióban viszem tovább, </strong> ahol a szakmai
+                            mestereitől és kollégáimtól rengeteg új nézőpontot, támaszt kaphatok. Fontosnak tartom a
+                            <strong> családból hozott információk, hiedelmek és sémák megismerését </strong> és hatásainak felismerését,
+                            megértését az önismereti munkában. <br><br>
+                            Motivál, hogy tudásom és tapasztalatom minden egyes nappal és lefolytatott üléssel
+                            növekszik, miközben csodálatos embereket, családokat és életutakat ismerhetek meg, és
+                            elképesztő fejlődéseknek, változásoknak lehetek részese, támogatója. <br>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+                    <div class="text-center text-lg-start">
+                        <p class="title m-0">
+                            Szakmai tapasztalat
+                        </p>
+                        <div class="pb-3">
+                            <img class="divider" src="img/divider.png" alt="">
+                        </div>
+                        <p class="pb-2">
+                            2023 -  <br><strong> Tanácsadás felnőttek részére</strong> <br>
+                            Magánellátás
+
+                        </p>
+                        <p class="pb-2">
+                            2023 -  <br><strong> Tanácsadó pszichológus, Családkonzulens</strong> <br>
+                            DÓHSZK
+
+                        </p>
+                        <p class="pb-2">
+                            2022 - 2023 <br> <strong> Egyetemi gyakorlat </strong><br>
+                            Kék Pont
+                        </p>
+                    </div>
+                    <div class="text-center text-lg-start">
+                        <p class="title m-0">
+                            Képzettség
+                        </p>
+                        <div class="pb-3">
+                            <img class="divider" src="img/divider.png" alt="">
+                        </div>
+                        <p class="pb-2">
+                            2023 - 2025 <br><strong> Család - és Párterápiás alapképzés</strong> <br>
+                            Magyar Családterápiás Egyesület
+
+                        </p>
+                        <p class="pb-2">
+                            2023 - 2025 <br><strong> Család - és Párterápiás alapképzés</strong> <br>
+                            Magyar Családterápiás Egyesület
+
+                        </p>
+                        <p class="pb-2">
+                            2021 - 2023 <br> <strong> Pszichológia MA, </strong>Tanácsadás- és Iskolapszichológia
+                            szakirány<br>
+                            Eötvös Loránd Tudományegyetem
+                        </p>
+                        <p class="pb-2">
+                            2020 - 2021<br> <strong> Rendszerszemléletű, megoldásorientált coach </strong><br>
+                            Lemma coaching - Weisner Edit
+                        </p>
+                        <p class="pb-5">
+                            2017 - 2020<br> <strong> Pszichológia BA </strong><br>
+                            Babes-Bolyai Tudományegyetem
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="hi-section">
-        <div class="container">
-            <div class="row justify-content-between">
-
-                <div class="text-center text-lg-start px-3">
-                    <p class="title pb-2">
-                        Képzettségek
-                    </p>
-                    <p class="pb-2">
-                        Folyamatban - 2023 <br><strong> Család - és Párterápiás alapképzés</strong> <br>
-                        Magyar Családterápiás Egyesület
-
-                    </p>
-                    <p class="pb-2">
-                        2021 - 2023 <br> <strong> Pszichológia MA, </strong>Tanácsadás- és Iskolapszichológia
-                        szakirány<br>
-                        Eötvös Loránd Tudományegyetem
-                    </p>
-                    <p class="pb-2">
-                        2020 - 2021<br> <strong> Rendszerszemléletű, megoldásorientált coach </strong><br>
-                        Lemma coaching - Weisner Edit
-                    </p>
-                    <p class="pb-5">
-                        2017 - 2020<br> <strong> Pszichológia BA </strong><br>
-                        Babes-Bolyai Tudományegyetem
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="bg-dark pt-4 pt-md-5" data-bs-theme="dark">
+   
+    <footer class="bg-dark pt-4 pt-md-5 pb-5" data-bs-theme="dark">
         <div class="container text-light text-center">
             <div class="row">
                 <div class="col-md-4 pb-5 py-md-0">
@@ -250,10 +290,10 @@
                 </div>
             </div>
         </div>
-        <div class="container text-light text-center mt-md-4">
-            <div class="row border-top border-light">
-                <div class="pt-4 pb-4">
-                    <p class="">© Kovács Emma Villő</p>
+        <div class="container text-light text-center mt-md-4 mb-5 mb-lg-2 ">
+            <div class="row border-top border-light mx-auto">
+                <div class="pt-4">
+                    <p class="mx-auto">© Kovács Emma Villő</p>
                 </div>
             </div>
         </div>
